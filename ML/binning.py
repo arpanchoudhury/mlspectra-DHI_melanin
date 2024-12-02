@@ -1,6 +1,6 @@
 import mlspectra
 
-spec_path = '/home/debashree/arpan/melanin/dhi-melanin/tetramer_opt/prop'
+spec_path = 'ML/Spectra'
 
 #e_min = 1.5498
 #e_max = 6.1992
