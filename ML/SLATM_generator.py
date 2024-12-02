@@ -5,7 +5,7 @@ import qml
 from qml.representations  import get_slatm_mbtypes
 
 # Geometry file names and their location
-Dir = r"optimized_geomtry/"
+Dir = r"optimized_geometry/"
 Ext = r".xyz"
 
 path = os.path.join(os.path.dirname(os.path.realpath(__file__)), Dir)
