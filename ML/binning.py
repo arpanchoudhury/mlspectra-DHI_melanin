@@ -5,12 +5,11 @@ spec_path = 'ML/Spectra'
 max_wavelength = 800
 min_wavelength = 200
 
-N_bin = 24
+resolution = 25
+N_bin = int((max_wavelength-min_wavelength)/N_bin)
 read_P = False            # If true, binned spectra will be loaded from 'file_spec', if false will be calculated and stored in this file
-resolution = int((max_wavelength-min_wavelength)/N_bin)
 file_spec = str(resolution)+'nmResolution_spectra.dat'
 file_geom = 'fingerprint_descrptor.dat'
 N_fing = 40
-#Int_lam, lambda_min, dlambda = mlspectra.bin_spectra_uniform(spec_path, read_P, file_spec, file_geom, e_min, e_max, N_bin, N_fing, 'qc_Opt.dat', 'dihedral_b3lyp_Opt.dat')
 
-Int_lam, lambda_min, dlambda = mlspectra.bin_spectra_waveuniform(spec_path, read_P, file_spec, file_geom, 200, 800, N_bin, N_fing, 'qc_Opt.dat', 'dihedral_b3lyp_Opt.dat')
+Int_lam, lambda_min, dlambda = mlspectra.bin_spectra_waveuniform(spec_path, read_P, file_spec, file_geom, min_wavelength, max_wavelength, N_bin, N_fing, 'qc_Opt.dat', 'dihedral_b3lyp_Opt.dat')
