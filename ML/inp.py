@@ -7,10 +7,10 @@ import random
 
 #---------------- Data loading ------------------------------
 
-X = np.loadtxt("fingerprint_64.dat")
-y = np.loadtxt("spectra_12bins_waveuniform.dat")
+X = np.loadtxt("fingerprint_descriptor.dat")
+y = np.loadtxt("50nmResolution_spectra.dat")
 y = y[:-2,:] # last two rows contain bin boundary and binwidths
-
+# y = y.reshape(-1:1) this is for relative stability training
 
 n_times_list = []
 for N_times in range(20):
