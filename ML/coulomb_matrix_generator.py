@@ -65,7 +65,7 @@ with open("qc_Opt.dat", "r") as fo:
     files = fo.readlines()
 
 for geom in (files):
-    df = pd.read_csv("optimized_geomtry/"+geom.strip(), skiprows=2, header=None, sep="\s+")
+    df = pd.read_csv("optimized_geometry/"+geom.strip(), skiprows=2, header=None, sep="\s+")
     x = df.iloc[:,1].to_numpy()
     y = df.iloc[:,2].to_numpy()
     z = df.iloc[:,3].to_numpy()
