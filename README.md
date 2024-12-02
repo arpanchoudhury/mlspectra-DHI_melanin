@@ -44,3 +44,6 @@ scipy 1.8.0
 scikit-learn 1.0.2
 qml 0.2.1
 ```
+## Reference
+[1] *Engineering melanin-based meta-material for broad UV-visible absorption by Arpan Choudhury and Debashree Ghosh*
+https://chemrxiv.org/engage/chemrxiv/article-details/6745b403f9980725cf045677
