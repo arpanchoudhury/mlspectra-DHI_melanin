@@ -43,5 +43,5 @@ scikit-learn 1.0.2
 qml 0.2.1
 ```
 ## Reference
-[1] *Engineering melanin-based meta-material for broad UV-visible absorption by Arpan Choudhury and Debashree Ghosh*
-https://chemrxiv.org/engage/chemrxiv/article-details/6745b403f9980725cf045677
+[1] *Machine learning modeling of electronic spectra and thermodynamic stability for a comprehensive chemical space of melanin. A Choudhury, D Ghosh
+Chemical Science 16 (21), 9230-9239, 2025*
