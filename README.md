@@ -45,3 +45,4 @@ qml 0.2.1
 ## Reference
 [1] *Machine learning modeling of electronic spectra and thermodynamic stability for a comprehensive chemical space of melanin. A Choudhury, D Ghosh
 Chemical Science 16 (21), 9230-9239, 2025*
+https://pubs.rsc.org/en/content/articlepdf/2025/sc/d5sc00046g
